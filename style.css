@@ -1,0 +1,122 @@
+
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+    text-shadow: #837777;
+}
+
+/* Set a background color for the page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the main sections */
+section {
+    background-color: #babcb9;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f6e9e9;
+    border-radius: 3px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #837777;
+    border-radius: 3px;
+    appearance: none;
+}
+
+
+button {
+    background-color: #2f3032;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+
+#my-bookings {
+    margin-top: 20px;
+}
+
+#my-bookings h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#my-bookings-list {
+    list-style: none;
+    padding: 0;
+}
+
+#my-bookings-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#my-bookings-list li:last-child {
+    border-bottom: none;
+}
+
+#my-bookings-list button {
+    background-color: #ff6347; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#my-bookings-list button:hover {
+    background-color: #ff4836; 
+}
+
+
+.hidden {
+    display: none;
+}
