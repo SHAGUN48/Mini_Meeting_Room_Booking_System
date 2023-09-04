@@ -17,7 +17,7 @@ To run this application locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone 
+   git clone https://github.com/SHAGUN48/Mini_Meeting_Room_Booking_System/tree/master
    cd meeting-room-booking
 ## Usage
 
